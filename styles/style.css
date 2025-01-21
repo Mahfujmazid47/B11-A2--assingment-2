@@ -376,6 +376,76 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 
 /* footer section styles */
+footer {
+    background: rgb(1, 172, 253);
+    height: 520px;
+}
+
+.footer-section {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid slateblue; */
+    padding: 123px 228px 174px 140px;
+}
+.footer-img-container {
+    /* width: 100%; */
+}
+.footer-title1 {
+    width: 206.11px;
+    /* height: 80px; */
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+}
+.footer-subtitle1 {
+    width: 399.02px;
+    margin-right: 172px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+
+
+.footer-container2 ul li {
+    list-style: none;
+}
+.footer-container2 li a {
+    text-decoration: none;
+}
+.footer-container2 {
+    margin-right: 143px;
+}
+
+.footer-title2 {
+    width: 156.36px;
+    margin-bottom: 32px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.footer-sub {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.10rem;
+    font-weight: 500;
+}
+.footer-sub a {
+    color:rgb(255, 255, 255);
+}
+
+
+
+.footer-title3 {
+    width: 177.12px;
+    margin-bottom: 32px;
+    color: rgb(255, 255, 255);
+    font-size: 1.62rem;
+}
+.footer-img-container3 {
+    gap: 10px;
+}
+
 
 
 
