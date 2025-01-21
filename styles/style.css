@@ -378,7 +378,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 /* footer section styles */
 footer {
     background: rgb(1, 172, 253);
-    height: 520px;
+    height: auto;
 }
 
 .footer-section {
@@ -554,5 +554,16 @@ footer {
         margin-top: -20px;
         position: absolute;
         z-index: 10;
+    }
+
+    /* footer section styles  */
+    .footer-section {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+        margin: 0px;
+    }
+    .footer-container1 {
+        margin-top: 60px;
     }
 }
