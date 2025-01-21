@@ -15,8 +15,9 @@
 }
 /* shared styles */
 header {
-    width: auto;
-    margin: 0 150px 0 150px;
+    width: 80%;
+    margin: 0 auto;
+    /* text-align: center; */
     padding: 20px 0px 20px 0px;
     /* border: 2px solid salmon; */
 }
@@ -79,19 +80,24 @@ header {
     color: rgb(255, 255, 255);
     font-size: 1.25rem;
     font-weight: 600;
+    font-family: Quicksand;
 }
 .first-bar {
     display: none;
 }
 /* section two styles */
 .two-section {
-    width: auto;
-    margin: 0 150px 0 150px;
+    width: 80%;
+    margin: 0 auto;
+    /* text-align: center; */
     border-bottom: 2px dashed #808080;
 }
 .two-section {
     align-items: center;
     gap: 150px;
+}
+.two-section img {
+    width: 100%;
 }
 .two-container {
     /* max-width: 682px; */
@@ -129,6 +135,10 @@ header {
     background: url(../assets/bg.png);
     margin-bottom: 60px;
     border-bottom: 2px dashed #808080;
+}
+.curriculum-title {
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 .curriculum-container {
     width: 80%;
@@ -220,13 +230,164 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .left {
     margin-right: 5px;
 }
+/* section four styles */
+.four-full-section {
+    width: auto;
+    background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    height: 1000px;
+
+}
+.four-all-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 60px;
+
+}
+.four-all-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.four-all-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.four-section {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 19px;
+}
+.four-section> img {
+    width: 100%;
+}
+.four-conrtainer1 {
+    width: 550px;
+    grid-column: span 2;
+    grid-row: span 5;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    
+}
+.four-conrtainer1> img {
+    position: relative;
+    z-index: 5;
+    width: 550px;
+    border-radius: 16px 16px 0px 0px;
+}
+.four-btn1 {
+    width: 174px;
+    height: 47px;
+    border-radius: 48px;
+    border: none;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    /* font-family: Raleway; */
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.four-btn-container {
+    margin-left: 38px;
+    margin-top: -30px;
+    position: absolute;
+    z-index: 10;
+}
+.four-conrtainer2 {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    height: auto;
+}
+.four-conrtainer2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+.four-title1 {
+    width: 400px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top:36px;
+    margin-bottom: 50px;
+    margin-left: 38px;
+}
+.four-des {
+    width: 433.06px;
+    margin-top: 0px;
+    margin-bottom: 34px;
+    margin-left: 38px;
+}
+.four-title {
+    width: 198.04px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 30px 38px 28px 38px;
+    /* padding-right: 20px; */
+}
+
+.four-img-container {
+    position: relative;
+
+}
+.four-img-container img {
+    width: 100%;
+}
+.four-btn2 {
+    /* position: absolute; */
+    /* top: 10%;
+    left: 10%; */
+    
+}
+
+.four-btn2, .four-btn3 {
+    width: 174px;
+    height: 38px;
+    border-radius: 48px;
+    border: none;
+    background: rgb(149, 178, 38);
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.four-btn-container2, .four-btn-container3 {
+    margin-left: 38px;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 10;
+}
+.four-btn3 {
+    background: rgb(93, 88, 240);
+}
+.four-btn-container4 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.four-btn4 {
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* footer section styles */
+
 
 
 
 /* small devices styles */
 @media screen and (max-width:576px) {
     header {
-        margin: 0 10px 0 10px;
+        width: 100%;
+        /* margin: 0 10px; */
+        text-align: center;
+        /* margin: 0 0 0 10px; */
+        align-items: center;
     }
     .first-title, .first-btn, .first-container2 {
         display: none;
@@ -239,8 +400,8 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     } */
     .first-bar {
         display: block;
-        width: 30px;
-        height: 30px;
+        /* border: 2px solid slateblue; */
+        margin-right: 10px;
     }
 
     /* two section style  */
@@ -254,14 +415,14 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     .two-container {
         text-align: center;
         /* border: 2px solid blue; */
-        width: 500px;
+        width: 100vw;
         
         
     }
     
     .two-kid img {
-        width: 570px;
-        padding: 0 15px 0 15px;
+        width: 100vw;
+        padding: 0 10px 0 10px;
         /* width: 100%; */
         
 
@@ -276,5 +437,52 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     .three-curr-container {
         border: none;
     }
+    .four-conrtainer1 {
+        display: none;
+    }
+    .four-section {
+        /* margin: 0 auto; */
+        justify-items: center;
+        grid-template-columns: repeat(2,1fr);
+        /* width: 100vw; */
 
+    }
+    .four-section> img {
+        /* max-width: 291px; */
+    }
+    .four-conrtainer2 {
+        /* width: 100vw; */
+        /* max-width: 45vw; */
+        box-sizing: border-box;
+
+    }
+    .four-conrtainer2 img {
+        width: 100%;
+        height: auto;
+    }
+    .four-all-section {
+        
+        width: 95vw;
+        /* gap: 5px; */
+    }
+    .four-title {
+        
+        width: 117.92px;
+        margin-left: 22px;
+        font-size: 0.57rem;
+
+    }.four-full-section {
+        /* width: max-content; */
+    }
+    .four-btn2, .four-btn3 {
+        width: 103.91px;
+        height: 22.83px;
+        font-size: 0.57rem;
+    }
+    .four-btn-container2, .four-btn-container3 {
+        /* margin-left: 38px; */
+        margin-top: -20px;
+        position: absolute;
+        z-index: 10;
+    }
 }
