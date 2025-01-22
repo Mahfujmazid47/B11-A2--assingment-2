@@ -94,7 +94,7 @@ header {
 }
 .two-section {
     align-items: center;
-    gap: 150px;
+    gap: 130px;
 }
 .two-section img {
     width: 100%;
@@ -118,6 +118,7 @@ header {
     color: rgb(17, 17, 17);
     font-size: 1.25rem;
     margin-bottom: 24px;
+    max-width: 640px;
 }
 .two-btn {
     width: 197px;
@@ -493,6 +494,13 @@ footer {
     }
     .two-title {
         width: 95vw;
+        margin: 0 auto;
+    }
+    .two-subtitle {
+        width: 95vw;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .two-kid img {
         width: 100vw;
