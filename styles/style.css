@@ -334,12 +334,6 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .four-img-container img {
     width: 100%;
 }
-.four-btn2 {
-    /* position: absolute; */
-    /* top: 10%;
-    left: 10%; */
-    
-}
 
 .four-btn2, .four-btn3 {
     width: 174px;
@@ -348,7 +342,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     border: none;
     background: rgb(149, 178, 38);
     color: rgb(255, 255, 255);
-    font-size: 0.95rem;
+    font-size: 0.97rem;
     font-weight: 500;
 }
 .four-btn-container2, .four-btn-container3 {
@@ -445,7 +439,17 @@ footer {
 .footer-img-container3 {
     gap: 10px;
 }
-
+ /* marquee section styles */
+ marquee {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.mar-1 {
+    color: #FEA301;  
+}
+.mar-2 {
+    color: #01ACFD;
+}
 
 
 
@@ -486,10 +490,10 @@ footer {
         text-align: center;
         /* border: 2px solid blue; */
         width: 100vw;
-        
-        
     }
-    
+    .two-title {
+        width: 95vw;
+    }
     .two-kid img {
         width: 100vw;
         padding: 0 10px 0 10px;
@@ -539,7 +543,7 @@ footer {
         
         width: 117.92px;
         margin-left: 22px;
-        font-size: 0.57rem;
+        font-size: 9.13px;
 
     }.four-full-section {
         /* width: max-content; */
@@ -547,7 +551,9 @@ footer {
     .four-btn2, .four-btn3 {
         width: 103.91px;
         height: 22.83px;
-        font-size: 0.57rem;
+        font-size: 9.13px;
+        margin-left: 2px;
+
     }
     .four-btn-container2, .four-btn-container3 {
         /* margin-left: 38px; */
