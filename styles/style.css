@@ -181,11 +181,11 @@ header {
 }
 .three-container3 {
     box-sizing: border-box;
-border: 0.94px solid rgb(242, 232, 255);
-border-radius: 18.86px;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
 
-box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 .three-title1, .three-title2, .three-title3 {
     margin-top: 32px;
@@ -220,10 +220,8 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .three-icon {
     width: 80%;
     margin: 0 auto;
-    /* border: 2px solid black; */
     text-align: center;
     color: #FEA301;
-    /* font-stretch: extra-condensed; */
     margin-bottom: 60px;
 
     
@@ -457,12 +455,15 @@ footer {
 
 /* small devices styles */
 @media screen and (max-width:576px) {
+
     header {
         width: 100%;
         /* margin: 0 10px; */
         text-align: center;
         /* margin: 0 0 0 10px; */
         align-items: center;
+        border-bottom: 1.5px solid #FEA301;
+        margin-bottom: 30px;
     }
     .first-title, .first-btn, .first-container2 {
         display: none;
@@ -519,6 +520,12 @@ footer {
     .three-curr-container {
         border: none;
     }
+    .curriculum-title {
+        font-size: 1.9rem;
+    }
+
+    /* section four styles  */
+    
     .four-conrtainer1 {
         display: none;
     }
@@ -568,6 +575,7 @@ footer {
         margin-top: -20px;
         position: absolute;
         z-index: 10;
+        margin-left: 18px;
     }
 
     /* footer section styles  */
@@ -579,5 +587,9 @@ footer {
     }
     .footer-container1 {
         margin-top: 60px;
+    }
+    .footer-subtitle1 {
+        max-width: 357px;
+        /* margin-right: 172px; */
     }
 }
